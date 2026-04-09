@@ -1,0 +1,19 @@
+# Question 2:
+# Classify user based on age:
+# <18 = Minor, 18–59 = Adult, 60+ = Senior
+
+# Input
+age = int(input("Enter age: "))
+
+# Condition check
+if age < 18:
+    print("Minor")
+elif age < 60:
+    print("Adult")
+else:
+    print("Senior")
+
+
+#     =============================
+# Enter age: 34
+# Adult
